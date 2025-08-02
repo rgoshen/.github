@@ -1,67 +1,55 @@
-<!--
-  For Work In Progress Pull Requests, please use the Draft PR feature,
-  see https://github.blog/2019-02-14-introducing-draft-pull-requests/ for further details.
-
-  For a timely review/response, please avoid force-pushing additional
-  commits if your PR already received reviews or comments.
-
-  Before submitting a Pull Request, please ensure you've done the following:
-  - 📖 Read the Open Sauced Contributing Guide: https://github.com/open-sauced/open-sauced/blob/HEAD/CONTRIBUTING.md#create-a-pull-request.
-  - 📖 Read the Open Sauced Code of Conduct: https://github.com/open-sauced/open-sauced/blob/HEAD/CODE_OF_CONDUCT.md.
-  - 👷‍♀️ Create small PRs. In most cases, this will be possible.
-  - ✅ Provide tests for your changes.
-  - 📝 Use descriptive commit messages.
-  - 📗 Update any related documentation and include any relevant screenshots.
--->
-
-## What type of PR is this? (check all applicable)
-
-- [ ] 🍕 Feature
-- [ ] 🐛 Bug Fix
-- [ ] 📝 Documentation Update
-- [ ] 🎨 Style
-- [ ] 🧑‍💻 Code Refactor
-- [ ] 🔥 Performance Improvements
-- [ ] ✅ Test
-- [ ] 🤖 Build
-- [ ] 🔁 CI
-- [ ] 📦 Chore (Release)
-- [ ] ⏩ Revert
+# Pull Request
 
 ## Description
+<!-- Provide a brief description of the changes in this PR -->
 
-<!--
-Please do not leave this blank
-This PR [adds/removes/fixes/replaces] the [feature/bug/etc].
--->
+## Type of Change
+<!-- Mark the relevant option with an "x" -->
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Documentation update
+- [ ] Code refactoring
+- [ ] Test improvements
 
-## Related Tickets & Documents
+## Changes Made
+<!-- List the specific changes made in this PR -->
+-
+-
+-
 
-<!--
-Please use this format link issue numbers: Fixes #123
-https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword
--->
+## Testing
+<!-- Describe how you tested these changes -->
+- [ ] Unit tests pass (`mvn test`)
+- [ ] Integration tests pass
+- [ ] Manual testing completed
+- [ ] Security validation performed
 
-## Mobile & Desktop Screenshots/Recordings
+## Security Considerations
+<!-- For CS-305 checksum verification system -->
+- [ ] Only secure cryptographic algorithms used (SHA-256, SHA-3-256, SHA-512, SHA-3-512)
+- [ ] No deprecated algorithms (MD5, SHA-1) introduced
+- [ ] Input validation implemented
+- [ ] Error handling doesn't expose sensitive information
+- [ ] SSL/TLS configuration maintained
 
-<!-- Visual changes require screenshots -->
+## Checklist
+<!-- Mark completed items with an "x" -->
+- [ ] Code follows project coding standards
+- [ ] Self-review of code completed
+- [ ] Code is properly commented
+- [ ] Tests added/updated for new functionality
+- [ ] Documentation updated if necessary
+- [ ] No merge conflicts
+- [ ] All CI checks pass
 
-## Added tests?
+## Related Issues
+<!-- Link any related issues -->
+Closes #
+Relates to #
 
-- [ ] 👍 yes
-- [ ] 🙅 no, because they aren't needed
-- [ ] 🙋 no, because I need help
+## Screenshots (if applicable)
+<!-- Add screenshots to help explain your changes -->
 
-## Added to documentation?
-
-- [ ] 📜 README.md
-- [ ] 📓 docs.opensauced.pizza
-- [ ] 🍕 dev.to/opensauced
-- [ ] 📕 storybook
-- [ ] 🙅 no documentation needed
-
-## [optional] Are there any post-deployment tasks we need to perform?
-
-## [optional] What gif best describes this PR or how it makes you feel?
-
-<!-- note: PRs with deleted sections will be marked invalid -->
+## Additional Notes
+<!-- Any additional information that reviewers should know -->
