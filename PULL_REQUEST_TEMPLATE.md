@@ -20,7 +20,7 @@
 
 ## Testing
 <!-- Describe how you tested these changes -->
-- [ ] Unit tests pass (`mvn test`)
+- [ ] Unit tests pass
 - [ ] Integration tests pass
 - [ ] Manual testing completed
 - [ ] Security validation performed
