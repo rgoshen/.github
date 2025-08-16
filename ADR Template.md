@@ -1,5 +1,3 @@
-# ADR-XXX Template
-
 # ADR-XXX: [ADR Title]
 
 - **Date**: YYYY-MM-DD
